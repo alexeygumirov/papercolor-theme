@@ -1258,6 +1258,7 @@ fun! s:apply_syntax_highlightings()
     exec 'hi FloatBorder' . s:bg_background
     exec 'hi NormalFloat' . s:bg_background
     exec 'hi WinBar' . s:fg_aqua . s:bg_tabline_bg
+    exec 'hi TelescopeMatching' . s:fg_visual_fg . s:bg_visual_bg
 
     hi! link DiagnosticError LspDiagnosticsDefaultError
     hi! link DiagnosticWarn LspDiagnosticsDefaultWarning
