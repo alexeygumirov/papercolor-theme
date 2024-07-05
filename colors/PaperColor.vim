@@ -3,7 +3,7 @@
 " License: MIT
 " Source: http://github.com/NLKNguyen/papercolor-theme
 
-let s:version = '0.9.x'
+let s:version = '0.10.x'
 
 " Note on navigating this source code:
 " - Use folding feature to collapse/uncollapse blocks of marked code
@@ -2335,7 +2335,7 @@ command! -nargs=0 PaperColor :call g:PaperColor()
 
 " =============================== MAIN ========================================
 
-hi clear
+" hi clear
 syntax reset
 let g:colors_name = "PaperColor"
 
